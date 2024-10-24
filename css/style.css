@@ -83,8 +83,8 @@ body { background-color: #090d12; overflow-x: hidden; }
 
 
 /* section3 시계 */
-#section3 {padding: 500px 0 1500px 0; }
-.clock { width: 750px; height: 750px;  border-radius: 50%; position: relative; left: 50%; transform: translateX(-50%); transition: 1s; } 
+#section3 {padding: 500px 0 2000px 0; position: relative;}
+.clock { width: 750px; height: 750px;  border-radius: 50%; position: absolute; top: 20%; left: 50%; transform: translateX(-50%); transition: 1s; } 
 .clock .clock_circle {position: absolute; width: 100%; height: 100%; border: 1px solid rgba(255,255,255,0.5); border-radius: 50%; animation: clockCircle0 2s infinite linear alternate;left: 50%; top: 50%; transform: translate(-50%,-50%);} 
 @keyframes clockCircle0 {
     0% {width: 105%; height: 100%;}
